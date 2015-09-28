@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 
 	<name>Dame aux cles application</name>
-	
+
 	<modules>
 		<module>../ui</module>
 	</modules>
@@ -23,5 +23,18 @@
 		<rest.assured.version>2.3.3</rest.assured.version>
 	</properties>
 
-	
+	<scm>
+		<developerConnection>scm:git:https://github.com/jcaballo/Dame-Aux-Cles.git</developerConnection>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.2</version>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
