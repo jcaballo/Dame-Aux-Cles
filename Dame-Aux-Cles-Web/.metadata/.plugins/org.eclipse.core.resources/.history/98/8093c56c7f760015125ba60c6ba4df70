@@ -1,0 +1,10 @@
+package com.dameauxcles.dao;
+
+public class TestPersonDao {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

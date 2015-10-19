@@ -1,0 +1,9 @@
+package com.dameauxcles.dao;
+
+import java.io.Serializable;
+
+import org.springframework.data.repository.CrudRepository;
+
+public class PersonRepository extends CrudRepository<Person, Long>{
+
+}

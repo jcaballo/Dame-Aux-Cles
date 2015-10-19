@@ -1,0 +1,11 @@
+package com.dameauxcles.dao;
+
+public class TestPersonDao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PersonDAO p = new PersonDAO();
+		System.out.println(p.trouver());
+	}
+
+}

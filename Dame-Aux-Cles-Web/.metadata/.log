@@ -1,0 +1,220 @@
+!SESSION 2015-10-19 16:12:34.079 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2015-10-19 16:14:49.885
+!MESSAGE cacheFile=file:/home/bob13/file:/root/eclipse/jee-mars/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.core.resources 4 368 2015-10-19 16:16:04.140
+!MESSAGE Resource '/frontToBack' does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 16:16:46.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 16:16:46.193
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui.navigator 4 0 2015-10-19 16:19:54.530
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "src/main/java [in frontToBackConnector]
+  <default> (not open)
+  frontToBackConnector (not open)".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2015-10-19 16:19:54.577
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "src/main/java [in frontToBackConnector]
+  <default> (not open)
+  frontToBackConnector (...)".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2015-10-19 16:19:54.595
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "src/main/java [in frontToBackConnector]
+  <default> (not open)
+  frontToBackConnector (...)".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-10-19 16:23:38.586
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-10-19 16:23:38.888
+!MESSAGE Unable to configure frontToBackConnector
+!STACK 0
+org.eclipse.m2e.wtp.MarkedException: Unable to configure frontToBackConnector
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while setting project description.
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1256)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1281)
+	at org.eclipse.m2e.wtp.ProjectUtils.removeNature(ProjectUtils.java:140)
+	at org.eclipse.m2e.wtp.EarProjectConfiguratorDelegate.configure(EarProjectConfiguratorDelegate.java:152)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94)
+	... 18 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 16:37:20.389
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 16:37:20.392
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 16:37:20.394
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 16:37:20.401
+!MESSAGE /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.7.RELEASE/spring-boot-starter-web-1.2.7.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 16:37:20.403
+!MESSAGE /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.7.RELEASE/spring-boot-starter-web-1.2.7.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 16:37:20.403
+!MESSAGE /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.7.RELEASE/spring-boot-starter-web-1.2.7.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 16:37:20.403
+!MESSAGE /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.7.RELEASE/spring-boot-starter-web-1.2.7.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 16:37:20.403
+!MESSAGE /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.7.RELEASE/spring-boot-starter-web-1.2.7.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 16:37:20.404
+!MESSAGE /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.7.RELEASE/spring-boot-starter-web-1.2.7.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 16:37:20.404
+!MESSAGE /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.7.RELEASE/spring-boot-starter-web-1.2.7.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 16:37:20.708
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 16:37:20.710
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2015-10-19 17:12:35.914
+!MESSAGE frontToBackConnector [in src/main/java [in frontToBackConnector]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [frontToBackConnector [in src/main/java [in frontToBackConnector]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1176)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2015-10-19 17:12:35.915
+!MESSAGE frontToBackConnector [in src/main/java [in frontToBackConnector]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 17:53:30.103
+!MESSAGE The POM for org.hibernate:hibernate-entitymanager:jar:3.3.1.GA is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-19 17:53:34.473
+!MESSAGE The POM for org.hibernate:hibernate-entitymanager:jar:3.3.1.GA is missing, no dependency information available
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:06:07.256
+!MESSAGE /root/.m2/repository/org/hibernate/hibernate-core/4.1.9.Final/hibernate-core-4.1.9.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:06:07.257
+!MESSAGE /root/.m2/repository/org/hibernate/hibernate-core/4.1.9.Final/hibernate-core-4.1.9.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:06:07.258
+!MESSAGE /root/.m2/repository/org/hibernate/hibernate-core/4.1.9.Final/hibernate-core-4.1.9.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:06:07.258
+!MESSAGE /root/.m2/repository/org/hibernate/hibernate-core/4.1.9.Final/hibernate-core-4.1.9.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:06:07.258
+!MESSAGE /root/.m2/repository/org/hibernate/hibernate-core/4.1.9.Final/hibernate-core-4.1.9.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:06:07.258
+!MESSAGE /root/.m2/repository/org/hibernate/hibernate-core/4.1.9.Final/hibernate-core-4.1.9.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:06:07.258
+!MESSAGE /root/.m2/repository/org/hibernate/hibernate-core/4.1.9.Final/hibernate-core-4.1.9.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:09:19.026
+!MESSAGE /root/.m2/repository/org/springframework/data/spring-data-jpa/1.7.4.RELEASE/spring-data-jpa-1.7.4.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:09:19.028
+!MESSAGE /root/.m2/repository/org/springframework/data/spring-data-jpa/1.7.4.RELEASE/spring-data-jpa-1.7.4.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:09:19.028
+!MESSAGE /root/.m2/repository/org/springframework/data/spring-data-jpa/1.7.4.RELEASE/spring-data-jpa-1.7.4.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:09:19.028
+!MESSAGE /root/.m2/repository/org/springframework/data/spring-data-jpa/1.7.4.RELEASE/spring-data-jpa-1.7.4.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:09:19.028
+!MESSAGE /root/.m2/repository/org/springframework/data/spring-data-jpa/1.7.4.RELEASE/spring-data-jpa-1.7.4.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:09:19.029
+!MESSAGE /root/.m2/repository/org/springframework/data/spring-data-jpa/1.7.4.RELEASE/spring-data-jpa-1.7.4.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:09:19.029
+!MESSAGE /root/.m2/repository/org/springframework/data/spring-data-jpa/1.7.4.RELEASE/spring-data-jpa-1.7.4.RELEASE.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:22:41.829
+!MESSAGE /root/.m2/repository/com/h2database/h2/1.4.190/h2-1.4.190.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:22:41.830
+!MESSAGE /root/.m2/repository/com/h2database/h2/1.4.190/h2-1.4.190.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:22:41.830
+!MESSAGE /root/.m2/repository/com/h2database/h2/1.4.190/h2-1.4.190.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:22:41.830
+!MESSAGE /root/.m2/repository/com/h2database/h2/1.4.190/h2-1.4.190.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:22:41.830
+!MESSAGE /root/.m2/repository/com/h2database/h2/1.4.190/h2-1.4.190.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:22:41.831
+!MESSAGE /root/.m2/repository/com/h2database/h2/1.4.190/h2-1.4.190.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2015-10-19 18:22:41.831
+!MESSAGE /root/.m2/repository/com/h2database/h2/1.4.190/h2-1.4.190.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ui 2 0 2015-10-19 18:31:51.921
+!MESSAGE The 'External Type Completiions' proposal computer from the 'org.springsource.ide.eclipse.commons.completions' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.

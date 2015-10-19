@@ -1,0 +1,20 @@
+package com.dameauxcles.connector;
+
+import java.util.concurrent.atomic.AtomicLong;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.dameauxcles.dao.PersonDAO;
+
+
+@RestController
+public class PersonTestController {
+
+    @RequestMapping("/coucou")
+    public String salut()//(@RequestParam(value="name", defaultValue="World") String name) 
+    {
+    	PersonDAO p = new PersonDAO();
+        return "coucou " + p.trouver();
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/persistence                  
+                            http://java.sun.com/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="bdd_model_Person_PU"
+		transaction-type="JTA">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<jta-data-source>java:/mysql</jta-data-source>
+		<class>com.dameauxcles.model.Person</class>
+		<properties />
+	</persistence-unit>
+</persistence>
