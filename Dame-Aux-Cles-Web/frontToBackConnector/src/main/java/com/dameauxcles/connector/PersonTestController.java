@@ -1,20 +1,31 @@
 package com.dameauxcles.connector;
 
+import java.util.ArrayList;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.dameauxcles.Application;
+import com.dameauxcles.dao.PersonRepository;
 import com.dameauxcles.model.Person;
 
 @RestController
 public class PersonTestController {
 	
-	private static final Logger log = LoggerFactory.getLogger(Application.class);
+	private final PersonRepository personRepository;
+	
+	@Autowired(required = true)
+    public PersonTestController(PersonRepository personRepository) {
+        this.personRepository = personRepository;
+    }
 
     @RequestMapping("/users")
-    public Person users()//(@RequestParam(value="name", defaultValue="World") String name) 
+    public ArrayList<Person> users()//(@RequestParam(value="name", defaultValue="World") String name) 
     {
-		return null;
+    	
+		return (ArrayList<Person>) this.personRepository.findAll();
     }
 }
