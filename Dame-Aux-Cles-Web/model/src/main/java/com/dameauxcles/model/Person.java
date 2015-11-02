@@ -25,6 +25,17 @@ public class Person {
 	@Column(name = "ISADMIN")
 	private boolean ISADMIN;
 
+	public Person(){
+		
+	}
+	
+	public Person(int iDPERSONNE, String lOGINPERSONNE, String mDPPERSONNE, boolean iSADMIN) {
+		IDPERSONNE = iDPERSONNE;
+		LOGINPERSONNE = lOGINPERSONNE;
+		MDPPERSONNE = mDPPERSONNE;
+		ISADMIN = iSADMIN;
+	}
+
 	public int getIDPERSONNE() {
 		return IDPERSONNE;
 	}
