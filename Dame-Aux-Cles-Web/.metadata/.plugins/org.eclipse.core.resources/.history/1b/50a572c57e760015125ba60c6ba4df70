@@ -1,7 +1,0 @@
-package com.dameauxcles.dao;
-
-import org.springframework.data.repository.CrudRepository;
-
-public class PersonRepository extends CrudRepository{
-
-}

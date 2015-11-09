@@ -2346,3 +2346,304 @@ java.lang.NullPointerException: null
 2015-11-02 16:11:54,141 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2015-11-02 16:11:54,142 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-11-02 16:11:54,142 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:50:33,226 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:50:33,226 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:50:33,226 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:50:33,227 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:50:33,228 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:50:33,248 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:50:33,248 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-02 16:50:33,249 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-11-02 16:50:33,251 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:50:33,251 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-02 16:50:33,251 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ui
+2015-11-02 16:50:33,251 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ui
+2015-11-02 16:50:33,254 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:53:21,482 [Worker-77] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:53:21,544 [Worker-77] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 16:53:21,984 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:53:21,984 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:21,985 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:53:21,985 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:22,253 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:53:22,254 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:22,254 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:22,254 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:53:22,254 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:23,456 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:53:23,457 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:23,457 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:53:23,457 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:43,018 [Worker-82] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-11-02 16:53:43,074 [Worker-82] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: dameAuxCles:delivery:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/delivery/pom.xml.
+2015-11-02 16:53:43,198 [Worker-82] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 16:53:43,271 [Worker-82] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:53:43,685 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/main/java
+2015-11-02 16:53:43,685 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 16:53:43,685 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 16:53:43,685 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/test/java
+2015-11-02 16:53:43,685 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/test/resources
+2015-11-02 16:53:43,892 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/main/java
+2015-11-02 16:53:43,892 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 16:53:43,892 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/test/java
+2015-11-02 16:53:43,892 [Worker-82] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/test/resources
+2015-11-02 16:53:44,045 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for frontToBackConnector
+2015-11-02 16:53:44,057 [Worker-82] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-11-02 16:53:44,313 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:53:44,314 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:44,316 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:53:44,316 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:45,039 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:53:45,039 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:45,039 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:45,040 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:53:45,040 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:53:45,040 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of frontToBackConnector
+2015-11-02 16:53:45,040 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for frontToBackConnector
+2015-11-02 16:53:45,043 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:56:10,595 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:56:10,649 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 16:56:10,825 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:10,827 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:10,828 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:10,828 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:11,040 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:56:11,040 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:11,040 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:11,041 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:56:11,041 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:12,229 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:12,229 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:12,230 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:12,230 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:41,395 [Worker-75] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:56:41,480 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:41,482 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:41,483 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:41,483 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:45,841 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-11-02 16:56:45,970 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:56:46,050 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/main/java
+2015-11-02 16:56:46,050 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 16:56:46,050 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/test/java
+2015-11-02 16:56:46,050 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/test/resources
+2015-11-02 16:56:46,121 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-11-02 16:56:46,380 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:46,381 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:56:46,382 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-02 16:56:46,382 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:42,953 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:58:43,048 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 16:58:43,450 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:58:43,451 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:43,451 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:43,453 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:58:43,453 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:43,718 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:58:43,718 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:43,719 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:43,719 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:58:43,719 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:45,085 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:58:45,085 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:45,085 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:58:45,086 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:58:45,086 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:04,837 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-11-02 16:59:05,002 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 16:59:05,121 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:59:05,529 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/main/java
+2015-11-02 16:59:05,530 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 16:59:05,530 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 16:59:05,530 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/test/java
+2015-11-02 16:59:05,530 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/test/resources
+2015-11-02 16:59:05,730 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/main/java
+2015-11-02 16:59:05,730 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 16:59:05,730 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 16:59:05,731 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/test/java
+2015-11-02 16:59:05,731 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/test/resources
+2015-11-02 16:59:05,982 [Worker-88] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for frontToBackConnector
+2015-11-02 16:59:05,996 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-11-02 16:59:06,221 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:59:06,222 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:06,222 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:06,223 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:59:06,223 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:07,092 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:59:07,092 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:07,092 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:07,093 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:59:07,093 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:07,093 [Worker-88] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of frontToBackConnector
+2015-11-02 16:59:07,093 [Worker-88] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for frontToBackConnector
+2015-11-02 16:59:07,096 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:59:53,579 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 16:59:53,715 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:59:53,717 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:53,717 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 16:59:53,718 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 16:59:53,718 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:09,696 [Worker-92] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 17:01:09,789 [Worker-92] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 17:01:09,923 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:09,923 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:09,924 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:09,924 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:09,924 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:10,186 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:10,187 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:10,187 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:10,188 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:10,188 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:11,476 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:11,476 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:11,476 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:11,477 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:11,477 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:26,141 [Worker-75] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-11-02 17:01:26,322 [Worker-75] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 17:01:26,419 [Worker-75] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 17:01:26,845 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/main/java
+2015-11-02 17:01:26,845 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 17:01:26,845 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 17:01:26,845 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/test/java
+2015-11-02 17:01:26,845 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/test/resources
+2015-11-02 17:01:27,064 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/main/java
+2015-11-02 17:01:27,064 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 17:01:27,064 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 17:01:27,064 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/test/java
+2015-11-02 17:01:27,064 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/test/resources
+2015-11-02 17:01:27,214 [Worker-75] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for frontToBackConnector
+2015-11-02 17:01:27,227 [Worker-75] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-11-02 17:01:27,582 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:27,582 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:27,582 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:27,584 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:27,584 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:28,501 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:28,501 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:28,501 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:28,502 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:01:28,502 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:01:28,502 [Worker-94] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of frontToBackConnector
+2015-11-02 17:01:28,502 [Worker-94] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for frontToBackConnector
+2015-11-02 17:01:28,505 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:05:47,444 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-11-02 17:05:47,512 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: dameAuxCles:delivery:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/delivery/pom.xml.
+2015-11-02 17:05:47,629 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 17:05:47,756 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 17:05:48,163 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/main/java
+2015-11-02 17:05:48,163 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 17:05:48,163 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/main/resources
+2015-11-02 17:05:48,163 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontToBackConnector/src/test/java
+2015-11-02 17:05:48,163 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /frontToBackConnector/src/test/resources
+2015-11-02 17:05:48,380 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/main/java
+2015-11-02 17:05:48,380 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 17:05:48,380 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/main/resources
+2015-11-02 17:05:48,380 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /model/src/test/java
+2015-11-02 17:05:48,380 [Worker-88] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /model/src/test/resources
+2015-11-02 17:05:48,536 [Worker-88] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for frontToBackConnector
+2015-11-02 17:05:48,551 [Worker-88] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-11-02 17:05:48,844 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:05:48,844 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:05:48,844 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:05:48,846 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:05:48,846 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:05:49,663 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:05:49,664 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:05:49,664 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:05:49,665 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:05:49,665 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:05:49,665 [Worker-99] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of frontToBackConnector
+2015-11-02 17:05:49,665 [Worker-99] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for frontToBackConnector
+2015-11-02 17:05:49,668 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:06:01,719 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2015-11-02 17:06:01,993 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/delivery
+2015-11-02 17:06:01,993 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install assembly:single
+2015-11-02 17:07:40,810 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:07:40,810 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-02 17:07:40,811 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-11-02 17:07:40,812 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:07:40,812 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-02 17:07:40,813 [Worker-99] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ui
+2015-11-02 17:07:40,813 [Worker-99] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ui
+2015-11-02 17:07:40,814 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:25:04,206 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: dameAuxCles:delivery:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/delivery/pom.xml.
+2015-11-02 17:25:05,807 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 17:25:06,284 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 17:25:07,895 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:25:07,900 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:25:07,901 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:25:07,904 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:25:07,905 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:25:10,237 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:25:10,238 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:25:10,238 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:25:10,240 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:25:10,240 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:25:12,088 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:25:12,088 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-02 17:25:12,103 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-11-02 17:25:12,106 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:25:12,106 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-02 17:28:53,398 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 17:28:53,560 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 17:28:53,789 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:28:53,791 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:53,791 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:53,793 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:28:53,793 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:54,135 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:28:54,137 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:54,138 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:54,139 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:28:54,139 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:55,638 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:28:55,639 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:55,639 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:28:55,641 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:28:55,642 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:29:02,475 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/delivery
+2015-11-02 17:29:02,476 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install assembly:single
+2015-11-02 17:30:58,594 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:model:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/model/pom.xml.
+2015-11-02 17:30:58,833 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: dameAuxCles:frontToBackConnector:0.0.1-SNAPSHOT @ /home/bob13/dameAuxCles/Dame-Aux-Cles/Dame-Aux-Cles-Web/frontToBackConnector/pom.xml.
+2015-11-02 17:30:59,143 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:30:59,143 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:30:59,144 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:30:59,145 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:30:59,145 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:30:59,662 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:30:59,662 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:30:59,662 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:30:59,664 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:30:59,665 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:31:01,064 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:31:01,064 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:31:01,065 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-02 17:31:01,068 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 17:31:01,068 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-04 08:28:56,746 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-04 08:28:56,767 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-04 08:28:56,768 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-04 08:28:56,771 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-04 08:28:56,771 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-04 08:29:00,252 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-04 08:29:00,253 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-04 08:29:00,290 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-11-04 08:29:00,293 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-04 08:29:00,293 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-04 08:29:02,029 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-04 08:29:02,048 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-04 08:29:02,050 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-11-04 08:29:02,052 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-04 08:29:02,052 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-09 14:15:13,307 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-09 14:15:13,326 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-09 14:15:13,326 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-09 14:15:13,329 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-09 14:15:13,329 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-09 14:15:16,317 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-09 14:15:16,318 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-09 14:15:16,349 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-11-09 14:15:16,361 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-09 14:15:16,361 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
