@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="create">
+		<h2>Creation d'une alerte</h2>
+		<form>
+			<div class="formField">
+				<label for="alerte.destinataire">Destinataire</label> <input
+					id="alerte.destinataire" type="text" />
+			</div>
+
+			<div class="formField">
+				<label for="alerte.delais">Delais</label> <input id="alerte.delais"
+					type="text" />
+			</div>
+
+			<div class="formField">
+				<label for="alerte.message">Message</label>
+				<textarea id="alerte.message" type="text" rows="5"></textarea>
+			</div>
+
+			<div class="formField">
+				<label for="alerte.image">Image</label> <input id="alerte.image"
+					type="file" />
+			</div>
+
+			<hr />
+
+			<button class="button" ng-click="create()">Creer l'alerte</button>
+
+		</form>
+
+	</div>
+
+
+</body>
+</html>
