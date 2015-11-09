@@ -14,58 +14,58 @@ public class Person {
 	@Id
 	@GeneratedValue( strategy = GenerationType.IDENTITY )
 	@Column(name = "IDPERSONNE")
-	private int IDPERSONNE;
+	private int idPersonne;
 	
 	@Column(name = "LOGINPERSONNE")
-	private String LOGINPERSONNE;
+	private String loginPersonne;
 	
 	@Column(name = "MDPPERSONNE")
-	private String MDPPERSONNE;
+	private String mdpPersonne;
 	
 	@Column(name = "ISADMIN")
-	private boolean ISADMIN;
+	private boolean isAdmin;
 
 	public Person(){
 		
 	}
 	
-	public Person(int iDPERSONNE, String lOGINPERSONNE, String mDPPERSONNE, boolean iSADMIN) {
-		IDPERSONNE = iDPERSONNE;
-		LOGINPERSONNE = lOGINPERSONNE;
-		MDPPERSONNE = mDPPERSONNE;
-		ISADMIN = iSADMIN;
+	public Person(int idPersonne, String loginPersonne, String mdpPersonne, boolean isAdmin) {
+		this.idPersonne = idPersonne;
+		this.loginPersonne = loginPersonne;
+		this.mdpPersonne = mdpPersonne;
+		this.isAdmin = isAdmin;
 	}
 
-	public int getIDPERSONNE() {
-		return IDPERSONNE;
+	public int getidPersonne() {
+		return idPersonne;
 	}
 
-	public void setIDPERSONNE(int iDPERSONNE) {
-		IDPERSONNE = iDPERSONNE;
+	public void setidPersonne(int idPersonne) {
+		this.idPersonne = idPersonne;
 	}
 
-	public String getLOGINPERSONNE() {
-		return LOGINPERSONNE;
+	public String getloginPersonne() {
+		return loginPersonne;
 	}
 
-	public void setLOGINPERSONNE(String lOGINPERSONNE) {
-		LOGINPERSONNE = lOGINPERSONNE;
+	public void setloginPersonne(String loginPersonne) {
+		this.loginPersonne = loginPersonne;
 	}
 
-	public String getMDPPERSONNE() {
-		return MDPPERSONNE;
+	public String getmdpPersonne() {
+		return mdpPersonne;
 	}
 
-	public void setMDPPERSONNE(String mDPPERSONNE) {
-		MDPPERSONNE = mDPPERSONNE;
+	public void setmdpPersonne(String mdpPersonne) {
+		this.mdpPersonne = mdpPersonne;
 	}
 
-	public boolean isISADMIN() {
-		return ISADMIN;
+	public boolean isisAdmin() {
+		return isAdmin;
 	}
 
-	public void setISADMIN(boolean iSADMIN) {
-		ISADMIN = iSADMIN;
+	public void setisAdmin(boolean isAdmin) {
+		this.isAdmin = isAdmin;
 	}
 	
 }
