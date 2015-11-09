@@ -18,23 +18,23 @@ public class Alert {
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	@Column (name = "IDALERTE")
-	private int IDALERTE;
+	private int idAlerte;
 	
 	@ManyToOne
 	@JoinColumn(name="IDPERSONNE")
-	private Person IDPERSONNE;
+	private Person idPersonne;
 	
 	@Column(name = "DESTINATAIREALERTE")
-	private String DESTINATAIREALERTE;
+	private String destinataireAlerte;
 	
 	@Column(name = "DELAISALERTES")
-	private Date DELAISALERTES;
+	private Date delaisAlerte;
 	
 	@Column(name = "MESSAGEALERTE")
-	private String MESSAGEALERTE;
+	private String messageAlerte;
 	
 	@Column(name = "PJALERTE")
-	private String PJALERTE;
+	private String pjAlerte;
 
 	public Alert(){
 		
@@ -43,60 +43,60 @@ public class Alert {
 	public Alert(int iDALERTE, Person iDPERSONNE, String dESTINATAIREALERTE, Date dELAISALERTES, String mESSAGEALERTE,
 			String pJALERTE) {
 		super();
-		IDALERTE = iDALERTE;
-		IDPERSONNE = iDPERSONNE;
-		DESTINATAIREALERTE = dESTINATAIREALERTE;
-		DELAISALERTES = dELAISALERTES;
-		MESSAGEALERTE = mESSAGEALERTE;
-		PJALERTE = pJALERTE;
+		idAlerte = iDALERTE;
+		idPersonne = iDPERSONNE;
+		destinataireAlerte = dESTINATAIREALERTE;
+		delaisAlerte = dELAISALERTES;
+		messageAlerte = mESSAGEALERTE;
+		pjAlerte = pJALERTE;
 	}
 
 	public int getIDALERTE() {
-		return IDALERTE;
+		return idAlerte;
 	}
 
 	public void setIDALERTE(int iDALERTE) {
-		IDALERTE = iDALERTE;
+		idAlerte = iDALERTE;
 	}
 
 	public Person getIDPERSONNE() {
-		return IDPERSONNE;
+		return idPersonne;
 	}
 
 	public void setIDPERSONNE(Person iDPERSONNE) {
-		IDPERSONNE = iDPERSONNE;
+		idPersonne = iDPERSONNE;
 	}
 
 	public String getDESTINATAIREALERTE() {
-		return DESTINATAIREALERTE;
+		return destinataireAlerte;
 	}
 
 	public void setDESTINATAIREALERTE(String dESTINATAIREALERTE) {
-		DESTINATAIREALERTE = dESTINATAIREALERTE;
+		destinataireAlerte = dESTINATAIREALERTE;
 	}
 
 	public Date getDELAISALERTES() {
-		return DELAISALERTES;
+		return delaisAlerte;
 	}
 
 	public void setDELAISALERTES(Date dELAISALERTES) {
-		DELAISALERTES = dELAISALERTES;
+		delaisAlerte = dELAISALERTES;
 	}
 
 	public String getMESSAGEALERTE() {
-		return MESSAGEALERTE;
+		return messageAlerte;
 	}
 
 	public void setMESSAGEALERTE(String mESSAGEALERTE) {
-		MESSAGEALERTE = mESSAGEALERTE;
+		messageAlerte = mESSAGEALERTE;
 	}
 
 	public String getPJALERTE() {
-		return PJALERTE;
+		return pjAlerte;
 	}
 
 	public void setPJALERTE(String pJALERTE) {
-		PJALERTE = pJALERTE;
+		pjAlerte = pJALERTE;
 	}
 	
 }
