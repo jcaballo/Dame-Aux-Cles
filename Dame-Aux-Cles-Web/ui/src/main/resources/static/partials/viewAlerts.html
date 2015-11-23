@@ -1,0 +1,20 @@
+<div>
+	<table class="table table-striped">
+		<tr>
+			<th>ID</th>
+			<th>Délais</th>
+			<th>Login personne</th>
+			<th>Destinataire</th>
+			<th>Message</th>
+			<th>PJ</th>
+		</tr>
+		<tr ng-repeat="alert in alerts">
+			<td>{{alert.idalerte}}</td>
+			<td>{{alert.delaisalertes}}</td>
+			<td>{{alert.idpersonne.loginPersonne}}</td>
+			<td>{{alert.destinatairealerte}}</td>
+			<td>{{alert.messagealerte}}</td>
+			<td>{{alert.pjalerte}}</td>
+		</tr>
+	</table>
+</div>
