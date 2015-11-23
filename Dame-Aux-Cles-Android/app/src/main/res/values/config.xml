@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="serveur">http://10.7.244.6:8081</string>
+</resources>

@@ -7,58 +7,58 @@ import java.util.Date;
  */
 public class Alerte {
 
-    private int idAlerte;
-    private Personne idPersonne;
-    private String destinataireAlerte;
-    private Date delaisAlerte;
-    private String messageAlerte;
-    private String pjAlerte;
+    private int idalerte;
+    private Personne idpersonne;
+    private String destinatairealerte;
+    private Date delaisalertes;
+    private String messagealerte;
+    private String pjalerte;
 
-    public int getIdAlerte() {
-        return idAlerte;
+    public int getIdalerte() {
+        return idalerte;
     }
 
-    public void setIdAlerte(int idAlerte) {
-        this.idAlerte = idAlerte;
+    public void setIdalerte(int idalerte) {
+        this.idalerte = idalerte;
     }
 
-    public Personne getIdPersonne() {
-        return idPersonne;
+    public Personne getIdpersonne() {
+        return idpersonne;
     }
 
-    public void setIdPersonne(Personne idPersonne) {
-        this.idPersonne = idPersonne;
+    public void setIdpersonne(Personne idpersonne) {
+        this.idpersonne = idpersonne;
     }
 
-    public String getDestinataireAlerte() {
-        return destinataireAlerte;
+    public String getDestinatairealerte() {
+        return destinatairealerte;
     }
 
-    public void setDestinataireAlerte(String destinataireAlerte) {
-        this.destinataireAlerte = destinataireAlerte;
+    public void setDestinatairealerte(String destinatairealerte) {
+        this.destinatairealerte = destinatairealerte;
     }
 
-    public Date getDelaisAlerte() {
-        return delaisAlerte;
+    public Date getDelaisalertes() {
+        return delaisalertes;
     }
 
-    public void setDelaisAlerte(Date delaisAlerte) {
-        this.delaisAlerte = delaisAlerte;
+    public void setDelaisalertes(Date delaisalertes) {
+        this.delaisalertes = delaisalertes;
     }
 
-    public String getMessageAlerte() {
-        return messageAlerte;
+    public String getMessagealerte() {
+        return messagealerte;
     }
 
-    public void setMessageAlerte(String messageAlerte) {
-        this.messageAlerte = messageAlerte;
+    public void setMessagealerte(String messagealerte) {
+        this.messagealerte = messagealerte;
     }
 
-    public String getPjAlerte() {
-        return pjAlerte;
+    public String getPjalerte() {
+        return pjalerte;
     }
 
-    public void setPjAlerte(String pjAlerte) {
-        this.pjAlerte = pjAlerte;
+    public void setPjalerte(String pjalerte) {
+        this.pjalerte = pjalerte;
     }
 }

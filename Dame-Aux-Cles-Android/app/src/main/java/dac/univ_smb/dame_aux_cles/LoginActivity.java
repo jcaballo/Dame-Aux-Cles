@@ -250,7 +250,7 @@ public class LoginActivity extends ActionBarActivity implements LoaderCallbacks<
         @Override
         protected Personne doInBackground(Void... params) {
             try {
-                final String url = "http://10.7.244.21:8081/user?loginPersonne="+mLogin;
+                final String url =getString(R.string.serveur)+"/user?loginPersonne="+mLogin;
                 RestTemplate restTemplate = new RestTemplate();
                 restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
                 Personne personne = restTemplate.getForObject(url, Personne.class);
@@ -271,7 +271,7 @@ public class LoginActivity extends ActionBarActivity implements LoaderCallbacks<
                     finish();
                     Intent intent = new Intent(mActivity,AlertActivity.class);
                     intent.putExtra("login", mLogin);
-                    mActivity.startActivity(new Intent(mActivity,AlertActivity.class));
+                    mActivity.startActivity(intent);
                 }
                 else {
                     mPasswordView.setError("Bad password.");
