@@ -11,6 +11,9 @@ application.config([ '$routeProvider', function($routeProvider) {
 	}).when('/createAlert', {
 		templateUrl : 'partials/createAlert.html',
 		controller : 'createAlert'
+	}).when('/usersManagement', {
+		templateUrl : 'partials/usersManagement.html',
+		controller : 'usersManagement'
 	}).otherwise({
 		redirectTo : '/'
 	});

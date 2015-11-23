@@ -1,0 +1,13 @@
+<div>
+	<table class="table table-striped">
+		<tr>
+			<th>ID personne</th>
+			<th>Login personne</th>
+		</tr>
+		<tr ng-repeat="user in users">
+			<td>{{user.idPersonne}}</td>
+			<td>{{user.loginPersonne}}</td>
+			<td><a class="btn" ng-click="removeUser(user)">Delete</a></td>
+		</tr>
+	</table>
+</div>
