@@ -1,6 +1,5 @@
 var applicationControllers = angular.module('applicationControllers', []);
 
-<<<<<<< HEAD
 applicationControllers.controller('connexion', function($scope, $http, $location, $rootScope) {
 	$scope.connexion = function(user) {;
 		$http.get('http://localhost:8081/user?loginPersonne='+user.login).success(function(data) {
@@ -13,13 +12,6 @@ applicationControllers.controller('connexion', function($scope, $http, $location
 			}
 		});
 	};
-=======
-applicationControllers.controller('connexion', function($scope, $http) {
-	$http.get('http://localhost:8081/user?loginPersonne=').success(
-			function(data) {
-				$scope.users = data;
-			});
->>>>>>> 080fd4e96bcadb7a55d7f2981e817354e90768b6
 });
 
 applicationControllers.controller('viewAlerts', function($scope, $http) {
