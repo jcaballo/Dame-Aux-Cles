@@ -8,6 +8,9 @@ application.config([ '$routeProvider', function($routeProvider) {
 	}).when('/viewAlerts', {
 		templateUrl : 'partials/viewAlerts.html',
 		controller : 'viewAlerts'
+	}).when('/createAlert', {
+		templateUrl : 'partials/createAlert.html',
+		controller : 'createAlert'
 	}).otherwise({
 		redirectTo : '/'
 	});

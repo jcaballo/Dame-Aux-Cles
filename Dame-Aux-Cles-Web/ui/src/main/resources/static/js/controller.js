@@ -18,4 +18,14 @@ applicationControllers.controller('viewAlerts', function($scope, $http) {
 	});
 }
 
+)
+
+applicationControllers.controller('createAlert', function($scope, $http) {
+
+	$http.get('http://localhost:8081/alerts').success(function(data) {
+		console.log(data);
+		$scope.alerts = data;
+	});
+}
+
 );
