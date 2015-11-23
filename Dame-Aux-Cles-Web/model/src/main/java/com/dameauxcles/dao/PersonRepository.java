@@ -13,4 +13,6 @@ public interface PersonRepository extends JpaRepository<Person, Long>{
 	ArrayList<Person> findByIsAdmin(boolean isAdmin);
 	
 	void delete(Person personne);
+	
+	Person save(Person personne);
 }

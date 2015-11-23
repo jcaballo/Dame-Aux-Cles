@@ -32,4 +32,8 @@ public class PersonTestController {
 		this.personRepository.delete(personne);
 	}
 
+	@RequestMapping(value = "/signInUser", method = RequestMethod.POST)
+	public void signInUser(@RequestBody Person personne) {
+		this.personRepository.save(personne);
+	}
 }

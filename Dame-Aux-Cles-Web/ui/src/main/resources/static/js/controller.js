@@ -43,4 +43,18 @@ applicationControllers.controller('usersManagement', function($scope, $http) {
 			});
 }
 
+)
+
+applicationControllers.controller('signIn', function($scope, $http, $location) {
+
+	$scope.signIn = function(user) {
+		user.isAdmin = false;
+		$http.post('http://localhost:8081/signInUser', user).success(
+				function() {
+					console.log(user + "signed in");
+					$location.path("/");
+				});
+	};
+}
+
 );
