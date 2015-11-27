@@ -4,6 +4,7 @@ import java.sql.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,7 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dameauxcles.dao.AlerteRepository;
 import com.dameauxcles.dao.PersonRepository;
 import com.dameauxcles.model.Alert;
-import com.dameauxcles.model.Person;;
+import com.dameauxcles.model.Person;
+
+import ch.qos.logback.core.net.SyslogOutputStream;;
 
 @RestController
 public class AlerteTestController {
@@ -33,17 +36,20 @@ public class AlerteTestController {
     }
     
     @RequestMapping(value = "/alert", method = RequestMethod.POST)
-    public Alert addAlert(String loginPersonne, String destinataire, Date delais, String message, String pj)
+    public Alert addAlert(@RequestBody Alert alerte)
     {
-    	Person personne = personneRepository.findByLoginPersonne(loginPersonne);
+    	/*System.out.println(loginpersonne);
+    	Person personne = personneRepository.findByLoginPersonne(loginpersonne);
+    	//System.out.println(personne.getidPersonne());
+    	System.out.println(personne.getloginPersonne());
     	Alert alert = new Alert();
     	alert.setIDPERSONNE(personne);
     	alert.setDESTINATAIREALERTE(destinataire);
     	alert.setDELAISALERTES(delais);
     	alert.setMESSAGEALERTE(message);
-    	alert.setPJALERTE(pj);
+    	alert.setPJALERTE(pj);*/
     	
-		return alerteRepository.save(alert);
+		return alerteRepository.save(alerte);
     }
     
     @RequestMapping("/alerts/user")
