@@ -1,7 +1,7 @@
 var applicationControllers = angular.module('applicationControllers', []);
 
 applicationControllers.controller('connexion', function($scope, $http, $location, $rootScope) {
-	$scope.connexion = function(user) {;
+	$scope.connexion = function(user) {
 		$http.get('http://localhost:8081/user?loginPersonne='+user.login).success(function(data) {
 			if(data.mdpPersonne == user.mdp) {
 				$rootScope.currentUser = data;
@@ -11,7 +11,10 @@ applicationControllers.controller('connexion', function($scope, $http, $location
 				alert("Mot de passe incorrect");
 			}
 		});
-	};
+	}
+	$scope.inscription = function(){
+		$location.path("/signIn");
+	}
 });
 
 applicationControllers.controller('viewAlerts', function($scope, $http) {
