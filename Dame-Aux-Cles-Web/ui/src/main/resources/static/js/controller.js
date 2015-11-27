@@ -24,8 +24,8 @@ applicationControllers.controller('viewAlerts', function($scope, $http) {
 
 applicationControllers.controller('createAlert', function($scope, $http, $rootScope) {
 	$scope.createAlert = function(alert) {
+		alert.idpersonne = $rootScope.currentUser;
 		console.log(alert);
-		alert.loginpersonne = $rootScope.currentUser.loginPersonne;
 		$http.post('http://localhost:8081/alert', alert).success(function(data) {
 			console.log(data);
 		});
