@@ -11,10 +11,12 @@ application.config([ '$routeProvider', function($routeProvider) {
 	}).when('/createAlert', {
 		templateUrl : 'partials/createAlert.html',
 		controller : 'createAlert'
+	}).when('/viewAlerts', {
+		templateUrl : 'partials/viewAlerts.html',
+		controller : 'Raffraichir'
 	}).otherwise({
 		redirectTo : '/'
 	});
 } ]);
-
 
 
