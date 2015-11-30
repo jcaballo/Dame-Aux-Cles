@@ -1,6 +1,8 @@
 package com.dameauxcles.connector;
 
 import java.sql.Date;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,5 +47,17 @@ public class AlerteTestController {
     @RequestMapping("/alerts/user")
     public List<Alert> user(@RequestParam(value="loginPersonne") String loginPersonne) {
     	return this.alerteRepository.findByIdPersonne_loginPersonne(loginPersonne);
+    }
+    
+    @RequestMapping("/updateAlerte")
+    public Alert updateAlerte(@RequestParam(value="idAlerte") int id) {
+        System.out.println("Coucou");
+        GregorianCalendar calendar = new java.util.GregorianCalendar();
+        Alert alerte = alerteRepository.findByIdAlerte(id);
+        calendar.setTime(alerte.getDELAISALERTES());
+        calendar.add (Calendar.DATE, +1);
+        alerte.setDELAISALERTES(new Date(calendar.getTimeInMillis()));
+        alerteRepository.save(alerte);
+        return alerte;
     }
 }

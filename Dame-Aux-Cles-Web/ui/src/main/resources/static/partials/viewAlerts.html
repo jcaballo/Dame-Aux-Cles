@@ -1,5 +1,5 @@
 <div>
-	<table class="table table-striped">
+	<table ng-table="alertesTable" class="table table-striped">
 		<tr>
 			<th>ID</th>
 			<th>Délais</th>
@@ -10,7 +10,7 @@
 		</tr>
 		<tr ng-repeat="alert in alerts">
 			<td>{{alert.idalerte}}</td>
-			<td>{{alert.delaisalertes}}</td>
+			<td><button class="btn btn-default" ng-click="updateAlert(alert)">{{alert.delaisalertes}}</button></td>
 			<td>{{alert.idpersonne.loginPersonne}}</td>
 			<td>{{alert.destinatairealerte}}</td>
 			<td>{{alert.messagealerte}}</td>

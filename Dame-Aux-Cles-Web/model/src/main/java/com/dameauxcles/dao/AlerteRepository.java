@@ -9,5 +9,6 @@ import com.dameauxcles.model.Alert;
 public interface AlerteRepository extends JpaRepository<Alert, Long>{
 	ArrayList<Alert> findByIdPersonne_loginPersonne(String loginPersonne);
 	Alert save(Alert alerte);
+	Alert findByIdAlerte(int idAlerte);
 	 
 }
