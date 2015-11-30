@@ -45,10 +45,17 @@ public class AlerteAdapter extends ArrayAdapter<Alerte> {
         Alerte alerte = getItem(position);
 
         //il ne reste plus qu'à remplir notre vue
+        if(alerte.getDestinatairealerte() != null)
         viewHolder.destinatairealerte.setText(alerte.getDestinatairealerte());
-        viewHolder.delaisalertes.setText(alerte.getDelaisalertes().toString());
-        viewHolder.messagealerte.setText(alerte.getMessagealerte().toString());
-        viewHolder.pjalerte.setText(alerte.getPjalerte().toString());
+        if(alerte.getDelaisalertes() != null)
+
+            viewHolder.delaisalertes.setText(alerte.getDelaisalertes().toString());
+        if(alerte.getMessagealerte() != null)
+
+            viewHolder.messagealerte.setText(alerte.getMessagealerte().toString());
+        if(alerte.getPjalerte() != null)
+
+            viewHolder.pjalerte.setText(alerte.getPjalerte().toString());
 
 
         return convertView;

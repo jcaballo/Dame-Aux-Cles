@@ -56,6 +56,11 @@ public class AlertActivity extends ActionBarActivity {
                 Toast.makeText(getApplicationContext(),
                         "Click ListItem Number " + position, Toast.LENGTH_LONG)
                         .show();
+                int idAlerte = ((Alerte)parent.getAdapter().getItem(position)).getIdalerte();
+
+                UpdateAlert updateAlert = new UpdateAlert(idAlerte);
+                updateAlert.execute((Void) null);
+
             }
         });
     }
@@ -91,6 +96,35 @@ public class AlertActivity extends ActionBarActivity {
             AlerteAdapter adapter = new AlerteAdapter(AlertActivity.this, new ArrayList<Alerte>(Arrays.asList(alertes.getBody())));
             listView.setAdapter(adapter);
         }
+
+        @Override
+        protected void onCancelled() {
+
+        }
+    }
+
+    public class UpdateAlert extends AsyncTask<Void, Void, Void> {
+
+        private final int alertId;
+
+        UpdateAlert(int alertId) {
+            this.alertId = alertId;
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            try {
+
+                final String url = getString(R.string.serveur)+"/updateAlerte?idAlerte="+alertId;
+                RestTemplate restTemplate = new RestTemplate();
+                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+                restTemplate.getForEntity(url, Alerte[].class);
+            } catch (Exception e) {
+                Log.e("MainActivity", e.getMessage(), e);
+            }
+            return null;
+        }
+
 
         @Override
         protected void onCancelled() {
