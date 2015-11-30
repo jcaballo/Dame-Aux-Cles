@@ -19,10 +19,20 @@ applicationControllers.controller('connexion', function($scope, $http,
 	}
 });
 
-applicationControllers.controller('viewAlerts', function($scope, $http, $rootScope) {
-	$http.get('http://localhost:8081/alerts').success(function(data) {
-		$scope.alerts = data;
-	});
+applicationControllers.controller('viewAlerts', function($scope, $http,
+		$location, $rootScope) {
+	$http.get('http://localhost:8081/alerts/user?loginPersonne='
+					+ $rootScope.currentUser.loginPersonne).success(
+			function(data) {
+				$scope.alerts = data;
+			});
+	$scope.updateAlert = function(alert) {
+		console.log("Coucou " + alert.idalerte)
+		$http.get('http://localhost:8081/updateAlerte?idAlerte='
+								+ alert.idalerte).success(function(data) {
+					alert = data;
+				});
+	};
 }
 
 )
@@ -31,6 +41,7 @@ applicationControllers.controller('createAlert', function($scope, $http,
 		$rootScope) {
 	$scope.createAlert = function(alert) {
 		alert.idpersonne = $rootScope.currentUser;
+		alert.delaisalerte = new Date(alert.delaisalerte).getTime();
 		console.log(alert);
 		$http.post('http://localhost:8081/alert', alert).success(
 				function(data) {
@@ -41,7 +52,8 @@ applicationControllers.controller('createAlert', function($scope, $http,
 
 )
 
-applicationControllers.controller('usersManagement', function($scope, $http, $rootScope) {
+applicationControllers.controller('usersManagement', function($scope, $http,
+		$rootScope) {
 	if ($rootScope.currentUser.isAdmin == true) {
 		$http.get('http://localhost:8081/users?isAdmin=0').success(
 				function(data) {

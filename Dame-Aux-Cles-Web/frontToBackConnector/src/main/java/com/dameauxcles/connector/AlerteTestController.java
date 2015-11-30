@@ -50,7 +50,7 @@ public class AlerteTestController {
     }
     
     @RequestMapping("/updateAlerte")
-    public void updateAlerte(@RequestParam(value="idAlerte") int id) {
+    public Alert updateAlerte(@RequestParam(value="idAlerte") int id) {
         System.out.println("Coucou");
         GregorianCalendar calendar = new java.util.GregorianCalendar();
         Alert alerte = alerteRepository.findByIdAlerte(id);
@@ -58,5 +58,6 @@ public class AlerteTestController {
         calendar.add (Calendar.DATE, +1);
         alerte.setDELAISALERTES(new Date(calendar.getTimeInMillis()));
         alerteRepository.save(alerte);
+        return alerte;
     }
 }
