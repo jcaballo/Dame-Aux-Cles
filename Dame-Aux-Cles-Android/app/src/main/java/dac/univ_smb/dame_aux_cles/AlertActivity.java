@@ -125,7 +125,12 @@ public class AlertActivity extends ActionBarActivity {
             return null;
         }
 
-
+        @Override
+        protected void onPostExecute(Void result)
+        {
+            finish();
+            startActivity(getIntent());
+        }
         @Override
         protected void onCancelled() {
 
