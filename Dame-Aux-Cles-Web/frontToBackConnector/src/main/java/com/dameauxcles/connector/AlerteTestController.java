@@ -38,16 +38,6 @@ public class AlerteTestController {
     @RequestMapping(value = "/alert", method = RequestMethod.POST)
     public Alert addAlert(@RequestBody Alert alerte)
     {
-    	/*System.out.println(loginpersonne);
-    	Person personne = personneRepository.findByLoginPersonne(loginpersonne);
-    	//System.out.println(personne.getidPersonne());
-    	System.out.println(personne.getloginPersonne());
-    	Alert alert = new Alert();
-    	alert.setIDPERSONNE(personne);
-    	alert.setDESTINATAIREALERTE(destinataire);
-    	alert.setDELAISALERTES(delais);
-    	alert.setMESSAGEALERTE(message);
-    	alert.setPJALERTE(pj);*/
     	
 		return alerteRepository.save(alerte);
     }

@@ -3,11 +3,12 @@
 	<form class="form-horizontal col-md-5">
 		<div class="form-group">
 			<label for="alerte.destinatairealerte">Destinataire</label> <input
-				ng-model="alerte.destinatairealerte" type="text" class="form-control" />
+				ng-model="alerte.destinatairealerte" type="text"
+				class="form-control" />
 		</div>
 		<div class="form-group">
-			<label for="alerte.delaisalerte">Delais</label> <input ng-model="alerte.delaisalerte"
-				type="datetime" class="form-control" />
+			<label for="alerte.delaisalerte">Delais</label> <input
+				ng-model="alerte.delaisalerte" class="form-control" />
 		</div>
 		<div class="form-group">
 			<label for="alerte.messagealerte">Message</label>
@@ -15,14 +16,15 @@
 				class="form-control"></textarea>
 		</div>
 		<div class="form-group">
-			<label for="alerte.pjalertealerte">Pièce jointe</label> <input data-file="alerte.pjalerte"
-				type="file" />
+			<label for="alerte.pjalertealerte">Pièce jointe</label> <input
+				data-file="alerte.pjalerte" type="file" />
 		</div>
 
 		<hr />
 
-		<button class="btn btn-info" ng-click="createAlert(alerte)">Creer l'alerte</button>
+		<button class="btn btn-info" ng-click="createAlert(alerte)">Creer
+			l'alerte</button>
 	</form>
-	
+
 	<pre>{{alerte}}</pre>
 </div>

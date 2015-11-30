@@ -67,17 +67,4 @@ applicationControllers.controller('signIn', function($scope, $http, $location) {
 	};
 }
 
-)
-
-applicationControllers.controller('Raffraichir', function($scope, $http) {
-
-	$http.get('http://localhost:8081/alerts').success(function(data) {
-		console.log(data);
-		$scope.feeds = [{
-			  url: 'http://localhost:8081/alerts',
-			  items: [ alert ]
-			}];
-	});
-}
-
 );
